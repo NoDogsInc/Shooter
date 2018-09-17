@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1697572549988076}
+  m_IsPrefabAsset: 1
+--- !u!1 &1697572549988076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4140346975739224}
+  - component: {fileID: 114541744405681154}
+  - component: {fileID: 114676356772140238}
+  m_Layer: 0
+  m_Name: PlayGameState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140346975739224
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697572549988076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114541744405681154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697572549988076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df3466bb60900a4e875d2d59f0b69ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: a157a1498b1f039499fbd1fae403d737, type: 2}
+  id:
+    _data: 0
+  sceneId:
+    _data: 0
+  prefabIdx: 0
+  lastUpdateTime: 0
+--- !u!114 &114676356772140238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697572549988076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd3928d8e80927419f45fd1e301ba0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  replicaComponentIdx: 0
+  dirtyFieldsMask: 0
+  playerStates: []
+  _globalTimeOffset: 0
+  map:
+    _sceneAsset: {fileID: 102900000, guid: 3a8ec71dba2a6ae449ce37873a4668f7, type: 3}
+    _sceneName: Halo/Scenes/BloodGulch
+  gruntPrefab: {fileID: 1199263104376326, guid: c0fec3088efc3944ebfcac48bde6401f,
+    type: 2}
+  elitePrefab: {fileID: 1199263104376326, guid: c5b317ec66cb34f4daf71a5449a07a11,
+    type: 2}
+  team1SpawnPoints: {fileID: 11400000, guid: cf1034bef80160f46aad5a01f7f534d7, type: 2}
+  team2SpawnPoints: {fileID: 11400000, guid: ddc5238bcea7f19458c75837d383ec40, type: 2}

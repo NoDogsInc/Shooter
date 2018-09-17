@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2ee7c0d4cacc24cad8de5e39c41449, type: 3}
+  m_Name: SurfaceEffectLookup
+  m_EditorClassIdentifier: 
+  effects:
+  - {fileID: 11400000, guid: 65957a4d347aa1d4c9ee27443f6c68a0, type: 2}
+  - {fileID: 11400000, guid: 0ee6bad8d9dc48544afcfe789ce19893, type: 2}
+  - {fileID: 11400000, guid: 0a9a77de2382de744ab4e859078e9de2, type: 2}
+  - {fileID: 11400000, guid: 5c7b5b8a62ab3c347bb6bec7ce03d00d, type: 2}
+  - {fileID: 11400000, guid: 92376c042d1bb194e965cf59272c8f08, type: 2}
+  - {fileID: 11400000, guid: 60fc928bc4c56244a969175ce73e4be4, type: 2}
+  - {fileID: 11400000, guid: 4e27218854f718340922b74f58bb96c9, type: 2}
+  - {fileID: 11400000, guid: 69609dc5f6a671a498960849857b2c6a, type: 2}
+  - {fileID: 11400000, guid: 91917cbfac63f5d46b9a499228d491a4, type: 2}
+  - {fileID: 11400000, guid: ad51bb2b2d91023468af5a65d49566de, type: 2}
+  - {fileID: 11400000, guid: 93f907cc68ef6b94db5314394d3eba9d, type: 2}
+  - {fileID: 11400000, guid: 7020dcd898739c34397a0a4d899442bb, type: 2}

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1714080754110024}
+  m_IsPrefabAsset: 1
+--- !u!1 &1714080754110024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4905019244425778}
+  - component: {fileID: 114291618264410172}
+  m_Layer: 0
+  m_Name: CtfGameMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4905019244425778
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1714080754110024}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114291618264410172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1714080754110024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97955a302dd98484e83e506ebee1a915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialGameStatePrefab: {fileID: 1697572549988076, guid: ea30c55deeb516f4caef5208ce28b055,
+    type: 2}
+  playerPrefab: {fileID: 1177641825926798, guid: 6a2da7e5ab0aa714982d68a9e592eb65,
+    type: 2}
+  team1SpawnPoints: {fileID: 11400000, guid: cf1034bef80160f46aad5a01f7f534d7, type: 2}
+  team2SpawnPoints: {fileID: 11400000, guid: ddc5238bcea7f19458c75837d383ec40, type: 2}
+  team1FlagPosition: {x: 68.44, y: -3.77, z: -118.19}
+  team2FlagPosition: {x: -68.48, y: -3.77, z: 69.47}
+  flagPrefab: {fileID: 1525009282751426, guid: 43e99f31ea798754ea3a599e0a192c16, type: 2}

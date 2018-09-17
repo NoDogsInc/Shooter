@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7163499d7cbcfc94bb4a65b170ed67ab, type: 3}
+  m_Name: RocketLauncher
+  m_EditorClassIdentifier: 
+  networkAssetId: 62b4d8a79031c3b4abc9a1a30a98f49d
+  serverWorldModelPrefab: {fileID: 1362516892492270, guid: 322555b8013fad74ca1c01bd21a97805,
+    type: 2}
+  clientWorldModelPrefab: {fileID: 1290936087784256, guid: 539c856d1ddfe2d49a4d0a13f775ec47,
+    type: 2}
+  extensions:
+  - {fileID: 114533254452337870}
+  - {fileID: 114041012437626154}
+--- !u!114 &114041012437626154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77d8871e07e75442946249ed0df26ab, type: 3}
+  m_Name: EquippableItemTypeExtension
+  m_EditorClassIdentifier: 
+  serverEquippableItemPrefab: {fileID: 1446980339343742, guid: ab45931a7cf772446a570a058726bbd5,
+    type: 2}
+--- !u!114 &114533254452337870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a58bdfe7719c045af405c506dec984, type: 3}
+  m_Name: WeaponItemTypeExtension
+  m_EditorClassIdentifier: 
+  attack: {fileID: 11400000, guid: 607d2f9e12839c6448b32da19614a8ff, type: 2}
+  shotEffectPrefabs:
+  - {fileID: 1098904189608450, guid: e17d05c2a1c5bc442b1b6cfdf04ae067, type: 2}
+  shotCooldown: 0.6
+  shotRandomAngleDerivation: 0
+  recoil: {fileID: 0}
+  maxAmmo: 3
+  hudPrefab: {fileID: 0}

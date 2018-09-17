@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3e2db5fa87fdf4c8b3b778286f44b2, type: 3}
+  m_Name: NetworkPrefabLookup
+  m_EditorClassIdentifier: 
+  prefabs:
+  - client: {fileID: 1402413904508216, guid: 6d7394a1dc1d78c448d96b692371df02, type: 2}
+    server: {fileID: 1282233983576016, guid: 40da3694baa5ce249aceadb3e6fa97f8, type: 2}
+  - client: {fileID: 1199263104376326, guid: 504c4a8b4cf01144ab6963dda302ddad, type: 2}
+    server: {fileID: 1199263104376326, guid: c5b317ec66cb34f4daf71a5449a07a11, type: 2}
+  - client: {fileID: 1199263104376326, guid: b1cf0612ca42f3f4eb86fe76a7c0fbf8, type: 2}
+    server: {fileID: 1199263104376326, guid: c0fec3088efc3944ebfcac48bde6401f, type: 2}
+  - client: {fileID: 1427267962459624, guid: 134b791f459e16e4291d549e597d7c89, type: 2}
+    server: {fileID: 1177641825926798, guid: 6a2da7e5ab0aa714982d68a9e592eb65, type: 2}
+  - client: {fileID: 1344513354031394, guid: b50a4d9bcae3bd24499fc6d3a3a344c6, type: 2}
+    server: {fileID: 1344513354031394, guid: b50a4d9bcae3bd24499fc6d3a3a344c6, type: 2}
+  - client: {fileID: 1697572549988076, guid: ea30c55deeb516f4caef5208ce28b055, type: 2}
+    server: {fileID: 1697572549988076, guid: ea30c55deeb516f4caef5208ce28b055, type: 2}
+  - client: {fileID: 1525009282751426, guid: 43e99f31ea798754ea3a599e0a192c16, type: 2}
+    server: {fileID: 1525009282751426, guid: 43e99f31ea798754ea3a599e0a192c16, type: 2}
+  - client: {fileID: 1307758178060204, guid: a97dbb25d7f474641b36828389ca58b4, type: 2}
+    server: {fileID: 1307758178060204, guid: a97dbb25d7f474641b36828389ca58b4, type: 2}
+  - client: {fileID: 1789529758228162, guid: f7e951cafc1141c4a96375911150783c, type: 2}
+    server: {fileID: 1789529758228162, guid: 380e441f0d2bf05489046197ac794e94, type: 2}
+  - client: {fileID: 1684749745723238, guid: a71afbcde8f1fb749a391bfaff93ed7b, type: 2}
+    server: {fileID: 1061869424934234, guid: c8f97d9e74232744e8815301f4f52d08, type: 2}
+  - client: {fileID: 1481528481444462, guid: f99f01d075dcb0d41a0359245d523888, type: 2}
+    server: {fileID: 1481528481444462, guid: 44264ad505f9b9c488e0b02cec623e75, type: 2}
+  - client: {fileID: 1905363993449640, guid: f1ac2771b57e0ce4c9c3fa79a4500a96, type: 2}
+    server: {fileID: 1905363993449640, guid: 2e5ecdae668ff1e4e8ddde5c3e5e95aa, type: 2}
+  - client: {fileID: 1536302123762760, guid: 68f6fca0f62426747811fca435055f77, type: 2}
+    server: {fileID: 1446980339343742, guid: ab45931a7cf772446a570a058726bbd5, type: 2}
+  - client: {fileID: 1290936087784256, guid: 539c856d1ddfe2d49a4d0a13f775ec47, type: 2}
+    server: {fileID: 1362516892492270, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
