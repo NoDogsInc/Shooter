@@ -1,6 +1,3 @@
-[submodule "Assets/UtilityAI"]
-	path = Assets/UtilityAI
-	url = https://github.com/SirPolly/UtilityAI
 [submodule "Assets/Cube/Core"]
 	path = Assets/Cube/Core
 	url = https://github.com/SirPolly/Cube.Core
@@ -28,3 +25,6 @@
 [submodule "Assets/Cube/Networking.Transport"]
 	path = Assets/Cube/Networking.Transport
 	url = https://github.com/SirPolly/Cube.Networking.Transport
+[submodule "Assets/UtilityAI"]
+	path = Assets/UtilityAI
+	url = https://github.com/SirPolly/UtilityAI
