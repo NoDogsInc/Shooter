@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9c5c78016d0c73408641a82b6122e08
+guid: 9a4553a8159a579408d07f2412174060
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -10,7 +10,8 @@ ModelImporter:
     400002: //RootNode
     400004: PlasmaMg
     2100000: 'Material #48'
-    2100002: No Name
+    2100002: Frame
+    2100004: Crystal
     2300000: Plane001
     2300002: PlasmaMg
     3300000: Plane001
@@ -19,7 +20,7 @@ ModelImporter:
     4300002: PlasmaMg
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -67,7 +68,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:

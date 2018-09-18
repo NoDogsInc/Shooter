@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 7b0ec03b59e3eff4ca14fd3121a447fa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Crystal00
+    100002: Crystal01
+    100004: Crystal02
+    100006: Crystal03
+    100008: Crystal04
+    100010: Crystal05
+    100012: Crystal06
+    100014: Crystal07
+    100016: Crystal08
+    100018: Crystal09
+    100020: Crystal10
+    100022: Crystal11
+    100024: Crystal12
+    100026: Crystal13
+    100028: Crystal14
+    100030: Foo
+    100032: //RootNode
+    100034: Needler
+    100036: Plane001
+    400000: Crystal00
+    400002: Crystal01
+    400004: Crystal02
+    400006: Crystal03
+    400008: Crystal04
+    400010: Crystal05
+    400012: Crystal06
+    400014: Crystal07
+    400016: Crystal08
+    400018: Crystal09
+    400020: Crystal10
+    400022: Crystal11
+    400024: Crystal12
+    400026: Crystal13
+    400028: Crystal14
+    400030: Foo
+    400032: //RootNode
+    400034: Needler
+    400036: Plane001
+    2100000: 'Material #48'
+    2100002: Metal
+    2100004: Alien
+    2100006: Crystals
+    2300000: Crystal00
+    2300002: Crystal01
+    2300004: Crystal02
+    2300006: Crystal03
+    2300008: Crystal04
+    2300010: Crystal05
+    2300012: Crystal06
+    2300014: Crystal07
+    2300016: Crystal08
+    2300018: Crystal09
+    2300020: Crystal10
+    2300022: Crystal11
+    2300024: Crystal12
+    2300026: Crystal13
+    2300028: Crystal14
+    2300030: Foo
+    2300032: Needler
+    2300034: Plane001
+    3300000: Crystal00
+    3300002: Crystal01
+    3300004: Crystal02
+    3300006: Crystal03
+    3300008: Crystal04
+    3300010: Crystal05
+    3300012: Crystal06
+    3300014: Crystal07
+    3300016: Crystal08
+    3300018: Crystal09
+    3300020: Crystal10
+    3300022: Crystal11
+    3300024: Crystal12
+    3300026: Crystal13
+    3300028: Crystal14
+    3300030: Foo
+    3300032: Needler
+    3300034: Plane001
+    4300000: Plane001
+    4300002: Needler
+    4300004: Foo
+    4300006: Crystal00
+    4300008: Crystal01
+    4300010: Crystal02
+    4300012: Crystal03
+    4300014: Crystal04
+    4300016: Crystal05
+    4300018: Crystal06
+    4300020: Crystal07
+    4300022: Crystal08
+    4300024: Crystal09
+    4300026: Crystal10
+    4300028: Crystal11
+    4300030: Crystal12
+    4300032: Crystal13
+    4300034: Crystal14
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
