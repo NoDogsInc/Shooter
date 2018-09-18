@@ -76,7 +76,7 @@ MonoBehaviour:
   _globalTimeOffset: 0
   map:
     _sceneAsset: {fileID: 102900000, guid: 3a8ec71dba2a6ae449ce37873a4668f7, type: 3}
-    _sceneName: Halo/Scenes/BloodGulch
+    _sceneName: Shooter/Scenes/BloodGulch
   gruntPrefab: {fileID: 1199263104376326, guid: c0fec3088efc3944ebfcac48bde6401f,
     type: 2}
   elitePrefab: {fileID: 1199263104376326, guid: c5b317ec66cb34f4daf71a5449a07a11,

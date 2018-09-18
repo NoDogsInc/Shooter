@@ -367,12 +367,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d8bd5f3d66201409effffb823591a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxStableMoveSpeed: 1.8
-  StableMovementSharpness: 8
-  OrientationSharpness: 100
+  MaxStableMoveSpeed: 10
+  StableMovementSharpness: 15
+  OrientationSharpness: 10
   OrientationMethod: 0
-  MaxAirMoveSpeed: 3
-  AirAccelerationSpeed: 2
+  MaxAirMoveSpeed: 10
+  AirAccelerationSpeed: 5
   Drag: 0.1
   AllowJumpingWhenSliding: 0
   JumpSpeed: 10
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a4499f5dd18a84fba27fb469430ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterController: {fileID: 0}
+  CharacterController: {fileID: 114006724231292570}
   Capsule: {fileID: 136346166618943584}
   Rigidbody: {fileID: 54816034425967028}
   CapsuleRadius: 0.5
