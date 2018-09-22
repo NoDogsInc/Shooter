@@ -40,3 +40,5 @@ MonoBehaviour:
     server: {fileID: 1446980339343742, guid: ab45931a7cf772446a570a058726bbd5, type: 2}
   - client: {fileID: 1290936087784256, guid: 539c856d1ddfe2d49a4d0a13f775ec47, type: 2}
     server: {fileID: 1362516892492270, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
+  - client: {fileID: 1965507688550770, guid: 20bf7e05fb3f5de48b13e26aac6b58b9, type: 2}
+    server: {fileID: 1965507688550770, guid: 079e8c6a63146314c91b08dd2b345a7b, type: 2}
