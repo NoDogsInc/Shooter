@@ -30,6 +30,7 @@ ModelImporter:
     100048: //RootNode
     100050: turret
     100052: window
+    100054: turret_head
     400000: barrels
     400002: frame_barrels
     400004: frame_chain
@@ -57,6 +58,7 @@ ModelImporter:
     400048: //RootNode
     400050: turret
     400052: window
+    400054: turret_head
     2100000: wire_174186203
     2100002: warthog_chain_gun
     2100004: warthog_hull
@@ -87,6 +89,7 @@ ModelImporter:
     2300046: trie_rb
     2300048: turret
     2300050: window
+    2300052: turret_head
     3300000: barrels
     3300002: frame_barrels
     3300004: frame_chain
@@ -113,6 +116,7 @@ ModelImporter:
     3300046: trie_rb
     3300048: turret
     3300050: window
+    3300052: turret_head
     4300000: frame_hull
     4300002: frame_gun_mount_base
     4300004: frame_chain
@@ -139,6 +143,7 @@ ModelImporter:
     4300046: trie_lf
     4300048: window
     4300050: turret
+    4300052: turret_head
   externalObjects: {}
   materials:
     importMaterials: 1
