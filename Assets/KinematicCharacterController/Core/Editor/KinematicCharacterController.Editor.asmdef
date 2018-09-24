@@ -1,0 +1,10 @@
+{
+    "name": "KinematicCharacterController.Editor",
+    "references": [
+        "KinematicCharacterController"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

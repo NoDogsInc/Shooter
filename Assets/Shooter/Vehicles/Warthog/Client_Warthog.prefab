@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 65582761002889858}
   - component: {fileID: 114345813996763270}
   m_Layer: 8
-  m_Name: Enter Driver
+  m_Name: Enter Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -628,7 +628,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1965507688550770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.475708, y: -4.2696733, z: -72.06322}
+  m_LocalPosition: {x: 57.71926, y: -4.3972874, z: -75.80679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4825996761211808}
@@ -1360,8 +1360,7 @@ MonoBehaviour:
   muzzleTransform: {fileID: 4952298199156962}
   barrelTransform: {fileID: 4093948600088988}
   attack: {fileID: 11400000, guid: 7c449920be148384aa2ca7c31b2c89d4, type: 2}
-  attackCooldown: 1
-  randomAngleDerivation: 3
+  attackCooldown: 0.1
 --- !u!114 &114306971738807382
 MonoBehaviour:
   m_ObjectHideFlags: 1
