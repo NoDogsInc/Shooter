@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Name: NetworkPrefabLookup
   m_EditorClassIdentifier: 
   prefabs:
-  - client: {fileID: 1402413904508216, guid: 6d7394a1dc1d78c448d96b692371df02, type: 2}
-    server: {fileID: 1282233983576016, guid: 40da3694baa5ce249aceadb3e6fa97f8, type: 2}
   - client: {fileID: 1199263104376326, guid: 504c4a8b4cf01144ab6963dda302ddad, type: 2}
     server: {fileID: 1199263104376326, guid: c5b317ec66cb34f4daf71a5449a07a11, type: 2}
   - client: {fileID: 1199263104376326, guid: b1cf0612ca42f3f4eb86fe76a7c0fbf8, type: 2}

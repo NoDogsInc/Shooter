@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d200e32dee723d34f8c81348d584bae4, type: 3}
-  m_Name: HaloClientBuildConfiguration
+  m_Name: ClientBuildConfiguration
   m_EditorClassIdentifier: 
   targetLocation: build/client
   targetName: Client
@@ -19,11 +19,11 @@ MonoBehaviour:
   development: 1
   scenes:
   - _sceneAsset: {fileID: 102900000, guid: 2bcd11af32f1b914ea4bdb8900f8e568, type: 3}
-    _sceneName: Halo/Scenes/Game
+    _sceneName: Shooter/Scenes/Game
   - _sceneAsset: {fileID: 102900000, guid: 3bd76a2cdb0b2024381e16b857429107, type: 3}
-    _sceneName: Halo/Scenes/GameClient
+    _sceneName: Shooter/Scenes/GameClient
   - _sceneAsset: {fileID: 102900000, guid: ba4fc672808e73d42b6f12d1f7c0e2ca, type: 3}
-    _sceneName: Halo/Scenes/TestMap
+    _sceneName: Shooter/Scenes/TestMap
   - _sceneAsset: {fileID: 102900000, guid: 3a8ec71dba2a6ae449ce37873a4668f7, type: 3}
-    _sceneName: Halo/Scenes/BloodGulch
+    _sceneName: Shooter/Scenes/BloodGulch
   applicationType: 1

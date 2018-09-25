@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRateSeconds: 30
-  masterServerHost: http://134.255.233.193:23888
+  masterServerHost: http://127.0.0.1:23888
   details:
     address: 
     port: 60000

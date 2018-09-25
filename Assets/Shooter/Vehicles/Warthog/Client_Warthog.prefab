@@ -11,6 +11,21 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1965507688550770}
   m_IsPrefabAsset: 1
+--- !u!1 &1020404022745132
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4399524052758268}
+  m_Layer: 0
+  m_Name: Camera Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1053957462934792
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +332,7 @@ GameObject:
   - component: {fileID: 4548812321215176}
   - component: {fileID: 114782544703570880}
   m_Layer: 0
-  m_Name: CM vcam2
+  m_Name: Virtual Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,6 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4501540951727502}
   - component: {fileID: 114007361995337218}
+  - component: {fileID: 114155353885009204}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -508,7 +524,7 @@ Transform:
   m_Children:
   - {fileID: 4952298199156962}
   m_Father: {fileID: 4416172200425860}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4158156057926746
 Transform:
@@ -574,7 +590,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4067476837703934}
-  - {fileID: 4548812321215176}
   - {fileID: 4361088707351610}
   - {fileID: 4416172200425860}
   m_Father: {fileID: 4432023386449126}
@@ -605,7 +620,20 @@ Transform:
   m_LocalScale: {x: 0.55515, y: 1.5305248, z: 0.55515}
   m_Children: []
   m_Father: {fileID: 4348038667579202}
-  m_RootOrder: 2
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4399524052758268
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020404022745132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.8570001, z: -6.4830036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4416172200425860}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4416172200425860
 Transform:
@@ -617,9 +645,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 1.233, z: 0.833}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4399524052758268}
+  - {fileID: 4548812321215176}
   - {fileID: 4093948600088988}
   m_Father: {fileID: 4348038667579202}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4432023386449126
 Transform:
@@ -628,7 +658,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1965507688550770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.71926, y: -4.3972874, z: -75.80679}
+  m_LocalPosition: {x: -37.890076, y: -4.3395286, z: 94.81476}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4825996761211808}
@@ -706,11 +736,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1620686692523290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.09, z: -5.65}
+  m_LocalPosition: {x: 0.0000018030405, y: 1.8570001, z: -6.4830036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4501540951727502}
-  m_Father: {fileID: 4348038667579202}
+  m_Father: {fileID: 4416172200425860}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4551333505895584
@@ -1300,6 +1330,25 @@ MonoBehaviour:
     _data: 0
   prefabIdx: 0
   lastUpdateTime: 0
+--- !u!114 &114155353885009204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654711187934930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: 0}
+  m_XDamping: 0.1
+  m_YDamping: 0.1
+  m_ZDamping: 0.1
+  m_PitchDamping: 0
+  m_YawDamping: 0.1
+  m_RollDamping: 0
 --- !u!114 &114190587942356658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1623,7 +1672,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 4399524052758268}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 10
