@@ -414,15 +414,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8735e616e84336b4e9b4e81d60868bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backend: {fileID: 11400000, guid: c1baf106440818842873d857ce443db6, type: 2}
   updateRateSeconds: 30
-  masterServerHost: http://127.0.0.1:23888
   details:
     address: 
     port: 60000
     version: 
     players: 0
     maxPlayers: 0
-    title: 
+    title: Test
 --- !u!4 &1674902336
 Transform:
   m_ObjectHideFlags: 0
