@@ -599,7 +599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _initialGameState: {fileID: 1178415856895480, guid: cbe0ee9da26986c4bbb389d94109273b,
     type: 2}
-  _initialEditorGameState: {fileID: 1178415856895480, guid: cbe0ee9da26986c4bbb389d94109273b,
+  _initialEditorGameState: {fileID: 1623372900783724, guid: 63e278e545ff51c4eb67d34d35f764ba,
     type: 2}
 --- !u!114 &1590185599
 MonoBehaviour:
