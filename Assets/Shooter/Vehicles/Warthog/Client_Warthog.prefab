@@ -1478,9 +1478,9 @@ MonoBehaviour:
     localPosition: {x: 0, y: 0, z: 0}
     localRotation: {x: 0, y: 0, z: 0, w: 0}
   centerOfMassOffset: {x: 0, y: 0.7, z: -0.1}
-  forwardBackSpeed: 400
+  forwardBackSpeed: 500
   steeringSpeed: 34
-  brakeForce: 0
+  brakeForce: 300
 --- !u!114 &114552740125513106
 MonoBehaviour:
   m_ObjectHideFlags: 1
