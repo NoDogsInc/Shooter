@@ -35,7 +35,7 @@ public class PlayGameState : GameState {
             Cursor.visible = false;
         }
 
-        SceneLoader.LoadAsync(map, LoadSceneMode.Additive);
+        SceneLoader.LoadAsyncOnce(map, LoadSceneMode.Additive);
 
 #if SERVER
         if (isServer) {

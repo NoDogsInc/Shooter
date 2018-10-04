@@ -31,6 +31,7 @@ ModelImporter:
     100050: turret
     100052: window
     100054: turret_head
+    100056: tire
     400000: barrels
     400002: frame_barrels
     400004: frame_chain
@@ -59,10 +60,13 @@ ModelImporter:
     400050: turret
     400052: window
     400054: turret_head
+    400056: tire
     2100000: wire_174186203
     2100002: warthog_chain_gun
     2100004: warthog_hull
     2100006: tires
+    2100008: 'Material #25'
+    2100010: 'Material #26'
     2300000: barrels
     2300002: frame_barrels
     2300004: frame_chain
@@ -90,6 +94,7 @@ ModelImporter:
     2300048: turret
     2300050: window
     2300052: turret_head
+    2300054: tire
     3300000: barrels
     3300002: frame_barrels
     3300004: frame_chain
@@ -117,6 +122,7 @@ ModelImporter:
     3300048: turret
     3300050: window
     3300052: turret_head
+    3300054: tire
     4300000: frame_hull
     4300002: frame_gun_mount_base
     4300004: frame_chain
@@ -144,6 +150,7 @@ ModelImporter:
     4300048: window
     4300050: turret
     4300052: turret_head
+    4300054: tire
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -178,10 +185,10 @@ ModelImporter:
     globalScale: 1.2
     meshCompression: 0
     addColliders: 0
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1

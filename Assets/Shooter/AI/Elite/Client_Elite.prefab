@@ -397,9 +397,8 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 8d75e3f898d3c694b8f807d61d4cb3be, type: 2}
   id:
     _data: 0
-  sceneId:
-    _data: 0
   prefabIdx: 0
+  sceneIdx: 255
   lastUpdateTime: 0
 --- !u!114 &114354688138586652
 MonoBehaviour:

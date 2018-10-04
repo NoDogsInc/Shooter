@@ -101,7 +101,7 @@ NavMeshSettings:
     serializedVersion: 2
     agentTypeID: 0
     agentRadius: 0.5
-    agentHeight: 1.7
+    agentHeight: 1.8
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
@@ -114,7 +114,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: e07fdd7cdf4789048ac40fed6ef4b236, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 32f5d1346f81fe44aa5473e86044a1f4, type: 2}
 --- !u!1 &15211830
 GameObject:
   m_ObjectHideFlags: 0
