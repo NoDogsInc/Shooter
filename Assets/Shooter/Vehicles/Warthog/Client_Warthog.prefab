@@ -174,7 +174,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1429129652352500
 GameObject:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
@@ -541,7 +541,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4179091787522712
 Transform:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1429129652352500}
@@ -658,7 +658,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1965507688550770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 62.00096, y: -3.062, z: -77.21211}
+  m_LocalPosition: {x: -42.475494, y: -4.837158, z: 119.03204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4825996761211808}
@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_RollDamping: 0
 --- !u!114 &114190587942356658
 MonoBehaviour:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1429129652352500}
@@ -1691,7 +1691,7 @@ MonoBehaviour:
   m_ComponentOwner: {fileID: 4501540951727502}
 --- !u!114 &114912210614471708
 MonoBehaviour:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1429129652352500}
@@ -1716,7 +1716,7 @@ MonoBehaviour:
   m_BiasY: 0
 --- !u!114 &114923348159109056
 MonoBehaviour:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1429129652352500}
