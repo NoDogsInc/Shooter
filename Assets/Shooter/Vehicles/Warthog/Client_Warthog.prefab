@@ -658,7 +658,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1965507688550770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.475494, y: -4.837158, z: 119.03204}
+  m_LocalPosition: {x: -42.632736, y: -4.833614, z: 119.57898}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4825996761211808}
@@ -1407,8 +1407,9 @@ MonoBehaviour:
   dirtyFieldsMask: 0
   muzzleTransform: {fileID: 4952298199156962}
   barrelTransform: {fileID: 4093948600088988}
-  attack: {fileID: 11400000, guid: 7c449920be148384aa2ca7c31b2c89d4, type: 2}
-  attackCooldown: 0.1
+  attack: {fileID: 11400000, guid: b16ce33a3ba27034e887f7bcf34aa892, type: 2}
+  attackCooldown: 0.15
+  attackAngleVisualRandomDerivation: 2
 --- !u!114 &114306971738807382
 MonoBehaviour:
   m_ObjectHideFlags: 1
