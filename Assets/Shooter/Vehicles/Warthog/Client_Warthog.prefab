@@ -658,7 +658,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1965507688550770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.95375, y: -4.835968, z: 117.78833}
+  m_LocalPosition: {x: 60.275726, y: -2.8516943, z: -65.984344}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4825996761211808}
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0
-  m_YDamping: 1
+  m_YDamping: 0.5
   m_ZDamping: 0.1
   m_PitchDamping: 0
   m_YawDamping: 0
