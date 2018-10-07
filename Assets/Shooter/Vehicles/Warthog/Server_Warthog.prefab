@@ -1070,7 +1070,7 @@ MonoBehaviour:
   barrelTransform: {fileID: 4416172200425860}
   attack: {fileID: 11400000, guid: b16ce33a3ba27034e887f7bcf34aa892, type: 2}
   attackCooldown: 0.15
-  attackAngleVisualRandomDerivation: 2
+  attackAngleVisualRandomDerivation: 1
 --- !u!114 &114475708330945212
 MonoBehaviour:
   m_ObjectHideFlags: 1

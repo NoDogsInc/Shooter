@@ -579,8 +579,8 @@ GameObject:
   - component: {fileID: 54130938787612510}
   - component: {fileID: 136289014433645520}
   - component: {fileID: 114440701084780186}
-  - component: {fileID: 114285245635608962}
   - component: {fileID: 114273166820245988}
+  - component: {fileID: 114227580220063544}
   - component: {fileID: 114093198121630236}
   m_Layer: 8
   m_Name: Client_Character
@@ -2822,6 +2822,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   replicaComponentIdx: 0
   dirtyFieldsMask: 0
+--- !u!114 &114227580220063544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1427267962459624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdc543687002a641b0c01e856ae0382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team: 0
 --- !u!114 &114273166820245988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2836,24 +2848,6 @@ MonoBehaviour:
   replicaComponentIdx: 0
   dirtyFieldsMask: 0
   _equippedItemType: {fileID: 0}
---- !u!114 &114285245635608962
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1427267962459624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 372b9f8017856ab47a03a92181acfe50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  replicaComponentIdx: 0
-  dirtyFieldsMask: 0
-  team: 0
-  teamColorRenderer: {fileID: 137812836738535410}
-  team1Material: {fileID: 2100000, guid: d79ed58fb46fba349be7f44f0377175f, type: 2}
-  team2Material: {fileID: 2100000, guid: c93e48d88f9535a4ba4ae62805e2c2fa, type: 2}
-  headOffset: {x: 0, y: 1.6, z: 0}
 --- !u!114 &114402305888200484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2993,7 +2987,7 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 0f7d7fcaaeffc3849b73d36e8bde2db3, type: 2}
   id:
     _data: 0
-  prefabIdx: 2
+  prefabIdx: 0
   sceneIdx: 255
   lastUpdateTime: 0
 --- !u!114 &114886252569235844

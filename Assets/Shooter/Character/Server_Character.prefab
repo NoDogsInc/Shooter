@@ -44,8 +44,8 @@ GameObject:
   - component: {fileID: 114834783651244684}
   - component: {fileID: 54783265657901698}
   - component: {fileID: 136290717904997620}
-  - component: {fileID: 114049228106120566}
   - component: {fileID: 114474636786021524}
+  - component: {fileID: 114565776443171380}
   m_Layer: 9
   m_Name: Server_Character
   m_TagString: Untagged
@@ -95,24 +95,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114049228106120566
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1177641825926798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 372b9f8017856ab47a03a92181acfe50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  replicaComponentIdx: 0
-  dirtyFieldsMask: 0
-  team: 0
-  teamColorRenderer: {fileID: 0}
-  team1Material: {fileID: 0}
-  team2Material: {fileID: 0}
-  headOffset: {x: 0, y: 1.6, z: 0}
 --- !u!114 &114448938883078934
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -191,6 +173,18 @@ MonoBehaviour:
   replicaComponentIdx: 0
   dirtyFieldsMask: 0
   _equippedItemType: {fileID: 0}
+--- !u!114 &114565776443171380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1177641825926798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdc543687002a641b0c01e856ae0382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team: 0
 --- !u!114 &114722213999524566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -205,7 +199,7 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 0f7d7fcaaeffc3849b73d36e8bde2db3, type: 2}
   id:
     _data: 0
-  prefabIdx: 2
+  prefabIdx: 0
   sceneIdx: 255
   lastUpdateTime: 0
 --- !u!114 &114785309383094098

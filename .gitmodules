@@ -25,9 +25,6 @@
 [submodule "Assets/Cube/Networking.Transport"]
 	path = Assets/Cube/Networking.Transport
 	url = https://github.com/SirPolly/Cube.Networking.Transport
-[submodule "Assets/UtilityAI"]
-	path = Assets/UtilityAI
-	url = https://github.com/SirPolly/UtilityAI
 [submodule "Assets/Cube/Vfx"]
 	path = Assets/Cube/Vfx
 	url = https://github.com/SirPolly/Cube.Vfx
