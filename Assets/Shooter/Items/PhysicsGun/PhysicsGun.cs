@@ -8,6 +8,7 @@ public class PhysicsGunSettings : ScriptableObject {
     public float damper = 10;
     public float appliedDrag = 5;
     public float appiedAngularDrag = 5;
+    public float throwForce = 10;
 }
 
 [RequireComponent(typeof(Replica))]
@@ -76,7 +77,7 @@ public class PhysicsGun : ReplicaBehaviour, IEquippableItem {
             springJoint.connectedBody.drag = 0; // #todo restore actual values
             springJoint.connectedBody.angularDrag = 0.05f;
 
-            springJoint.connectedBody.AddForce(_view.transform.forward * 60, ForceMode.Impulse);
+            springJoint.connectedBody.AddForce(_view.transform.forward * springJoint.connectedBody.mass * settings.throwForce, ForceMode.Impulse);
         }
       
         Destroy(_hook);
