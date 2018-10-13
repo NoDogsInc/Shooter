@@ -597,9 +597,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e50ff2d7a08ed504094ccd4d26aaa063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialGameState: {fileID: 1178415856895480, guid: cbe0ee9da26986c4bbb389d94109273b,
+  initialGameState: {fileID: 1178415856895480, guid: cbe0ee9da26986c4bbb389d94109273b,
     type: 2}
-  _initialEditorGameState: {fileID: 1623372900783724, guid: 63e278e545ff51c4eb67d34d35f764ba,
+  initialEditorGameState: {fileID: 1623372900783724, guid: 63e278e545ff51c4eb67d34d35f764ba,
     type: 2}
 --- !u!114 &1590185599
 MonoBehaviour:
@@ -614,10 +614,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lagSettings:
     enabled: 0
-    simulatedLoss: 0
-    duplicatesChance: 0
-    minimumLatencyMs: 0
-    randomLatencyMs: 0
+    simulatedLoss: 0.01
+    duplicatesChance: 0.01
+    minimumLatencyMs: 80
+    randomLatencyMs: 15
   _interpolate: 1
 --- !u!1 &1701356802
 GameObject:

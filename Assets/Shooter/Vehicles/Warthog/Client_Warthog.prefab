@@ -1326,7 +1326,7 @@ MonoBehaviour:
   settings: {fileID: 0}
   id:
     _data: 0
-  prefabIdx: 11
+  prefabIdx: 13
   sceneIdx: 255
   lastUpdateTime: 0
 --- !u!114 &114155353885009204
@@ -1739,7 +1739,7 @@ WheelCollider:
     damper: 1000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0.2
+  m_ForceAppPointDistance: 0.5
   m_Mass: 10
   m_WheelDampingRate: 1
   m_ForwardFriction:
@@ -1768,7 +1768,7 @@ WheelCollider:
     damper: 1000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0.2
+  m_ForceAppPointDistance: 0.5
   m_Mass: 10
   m_WheelDampingRate: 1
   m_ForwardFriction:
@@ -1797,7 +1797,7 @@ WheelCollider:
     damper: 1000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0.2
+  m_ForceAppPointDistance: 0.5
   m_Mass: 10
   m_WheelDampingRate: 1
   m_ForwardFriction:
@@ -1826,7 +1826,7 @@ WheelCollider:
     damper: 1000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0.2
+  m_ForceAppPointDistance: 0.5
   m_Mass: 10
   m_WheelDampingRate: 1
   m_ForwardFriction:
