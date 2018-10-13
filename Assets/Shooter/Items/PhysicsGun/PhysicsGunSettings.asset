@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: PhysicsGunSettings
   m_EditorClassIdentifier: Assembly-CSharp::PhysicsGunSettings
-  springMultiplier: 50
+  springMultiplier: 100
   damper: 10
   appliedDrag: 5
-  appiedAngularDrag: 5
+  appiedAngularDrag: 10
   throwForce: 12
