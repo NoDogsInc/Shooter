@@ -1,5 +1,5 @@
 ﻿using Cube.Gameplay;
-using Cube.Networking;
+using Cube.Networking.Replicas;
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -14,8 +14,7 @@ public class PhysicsGunSettings : ScriptableObject {
 [RequireComponent(typeof(Replica))]
 public class PhysicsGun : ReplicaBehaviour, IEquippableItem {
     public PhysicsGunSettings settings;
-
-    Pawn _pawn;
+    
     CharacterView _view;
 
     RaycastHit[] _hitCache = new RaycastHit[1];
@@ -24,7 +23,6 @@ public class PhysicsGun : ReplicaBehaviour, IEquippableItem {
     Rigidbody _currentlyHookedRigidbody;
 
     public void Equip(ItemType itemType, Pawn pawn) {
-        _pawn = pawn;
         _view = GetComponentInParent<CharacterView>();
     }
 

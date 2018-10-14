@@ -4,7 +4,7 @@ public class RocketExplosion : MonoBehaviour {
     public float lifetime = 1;
     public AnimationCurve alphaCutoff;
     public AnimationCurve size;
-    public Renderer renderer;
+    public new Renderer renderer;
 
     float _destroyTime;
 
