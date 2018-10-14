@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 114140097973075676}
   - component: {fileID: 114475708330945212}
   - component: {fileID: 114421446998495166}
+  - component: {fileID: 114619395073764076}
   m_Layer: 9
   m_Name: Server_Warthog
   m_TagString: Untagged
@@ -1124,6 +1125,19 @@ MonoBehaviour:
   driverTransform: {fileID: 4536390776233672}
   _driver: {fileID: 0}
   sitAnimation: 1
+--- !u!114 &114619395073764076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965507688550770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16084258de964a143a9218afa3f683ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageProfile: {fileID: 11400000, guid: 7fb2f2403b78db341bbe17918af71ac0, type: 2}
+  _collision: {fileID: 0}
 --- !u!146 &146501524035877948
 WheelCollider:
   m_ObjectHideFlags: 1

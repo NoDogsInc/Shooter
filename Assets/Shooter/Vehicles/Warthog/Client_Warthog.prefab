@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 114140097973075676}
   - component: {fileID: 114552740125513106}
   - component: {fileID: 114421446998495166}
+  - component: {fileID: 114327904556420996}
   m_Layer: 8
   m_Name: Client_Warthog
   m_TagString: Untagged
@@ -1424,6 +1425,19 @@ MonoBehaviour:
   replicaComponentIdx: 0
   dirtyFieldsMask: 0
   headTransform: {fileID: 4416172200425860}
+--- !u!114 &114327904556420996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965507688550770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16084258de964a143a9218afa3f683ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageProfile: {fileID: 11400000, guid: 7fb2f2403b78db341bbe17918af71ac0, type: 2}
+  _collision: {fileID: 0}
 --- !u!114 &114345813996763270
 MonoBehaviour:
   m_ObjectHideFlags: 1
