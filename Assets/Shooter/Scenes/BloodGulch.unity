@@ -219,7 +219,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4265117676044368, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.689
+      value: -1.57
       objectReference: {fileID: 0}
     - target: {fileID: 4265117676044368, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3246,7 +3246,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4265117676044368, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.689
+      value: -1.5700002
       objectReference: {fileID: 0}
     - target: {fileID: 4265117676044368, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5937,7 +5937,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4265117676044368, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.689
+      value: -1.5700002
       objectReference: {fileID: 0}
     - target: {fileID: 4265117676044368, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5970,47 +5970,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 322555b8013fad74ca1c01bd21a97805, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1349979165
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1349979167}
-  - component: {fileID: 1349979166}
-  m_Layer: 0
-  m_Name: __SCENE_REPLICA_WRAPPER__
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1349979166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1349979165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f122ab80b4a52494fa238b6cc7590761, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneId: 0
---- !u!4 &1349979167
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1349979165}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 33
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352417321
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,6 +6771,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1528763760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528763762}
+  - component: {fileID: 1528763761}
+  m_Layer: 0
+  m_Name: __SCENE_REPLICA_WRAPPER__
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1528763761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528763760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f122ab80b4a52494fa238b6cc7590761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+--- !u!4 &1528763762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528763760}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1593858453
 GameObject:
