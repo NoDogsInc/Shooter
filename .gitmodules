@@ -1,30 +1,30 @@
 [submodule "Assets/Cube/Core"]
 	path = Assets/Cube/Core
-	url = https://github.com/SirPolly/Cube.Core
+	url = https://github.com/NoDogsInc/Cube.Core
 [submodule "Assets/Cube/Gameplay"]
 	path = Assets/Cube/Gameplay
-	url = https://github.com/SirPolly/Cube.Gameplay
+	url = https://github.com/NoDogsInc/Cube.Gameplay
 [submodule "Assets/Cube/Gameplay.SurfaceLibrary"]
 	path = Assets/Cube/Gameplay.SurfaceLibrary
-	url = https://github.com/SirPolly/Cube.Gameplay.SurfaceLibrary
+	url = https://github.com/NoDogsInc/Cube.Gameplay.SurfaceLibrary
 [submodule "Assets/Cube/Gameplay.KinematiCharacterController"]
 	path = Assets/Cube/Gameplay.KinematiCharacterController
-	url = https://github.com/SirPolly/Cube.Gameplay.KinematiCharacterController
+	url = https://github.com/NoDogsInc/Cube.Gameplay.KinematicCharacterController
 [submodule "Assets/Cube/Networking"]
 	path = Assets/Cube/Networking
-	url = https://github.com/SirPolly/Cube.Networking
+	url = https://github.com/NoDogsInc/Cube.Networking
 [submodule "Assets/Cube/Networking.MasterServer"]
 	path = Assets/Cube/Networking.MasterServer
-	url = https://github.com/SirPolly/Cube.Networking.MasterServer
+	url = https://github.com/NoDogsInc/Cube.Networking.MasterServer
 [submodule "Assets/Cube/Gameplay.DefaultGameStates"]
 	path = Assets/Cube/Gameplay.DefaultGameStates
-	url = https://github.com/SirPolly/Cube.Gameplay.DefaultGameStates
+	url = https://github.com/NoDogsInc/Cube.Gameplay.DefaultGameStates
 [submodule "Assets/Cube/Networking.Replica"]
 	path = Assets/Cube/Networking.Replica
-	url = https://github.com/SirPolly/Cube.Networking.Replica
+	url = https://github.com/NoDogsInc/Cube.Networking.Replica
 [submodule "Assets/Cube/Networking.Transport"]
 	path = Assets/Cube/Networking.Transport
-	url = https://github.com/SirPolly/Cube.Networking.Transport
+	url = https://github.com/NoDogsInc/Cube.Networking.Transport
 [submodule "Assets/Cube/Vfx"]
 	path = Assets/Cube/Vfx
-	url = https://github.com/SirPolly/Cube.Vfx
+	url = https://github.com/NoDogsInc/Cube.Vfx
