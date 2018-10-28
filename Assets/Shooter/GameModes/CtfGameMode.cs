@@ -10,8 +10,8 @@ public class CtfGameMode : HaloGameMode {
     protected override void Start() {
         base.Start();
 
-        InstantiateReplica(flagPrefab, team1FlagPosition);
-        InstantiateReplica(flagPrefab, team2FlagPosition);
+        server.replicaManager.InstantiateReplica(flagPrefab, team1FlagPosition);
+        server.replicaManager.InstantiateReplica(flagPrefab, team2FlagPosition);
     }
 }
 #endif
