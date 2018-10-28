@@ -481,6 +481,8 @@ MonoBehaviour:
   clientGame: {fileID: 0}
   serverGame: {fileID: 160001539}
   gameStateSystem: {fileID: 718145990}
+  guiSystem: {fileID: 0}
+  serverPlayerControllerSystem: {fileID: 1337902073}
 --- !u!1 &718145988
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +644,8 @@ MonoBehaviour:
   clientGame: {fileID: 1590185598}
   serverGame: {fileID: 0}
   gameStateSystem: {fileID: 1985080886}
+  guiSystem: {fileID: 400766538}
+  serverPlayerControllerSystem: {fileID: 0}
 --- !u!1 &1153196890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1714080754110024, guid: 3803d05f8b832e0418ef6155a30c3549,
