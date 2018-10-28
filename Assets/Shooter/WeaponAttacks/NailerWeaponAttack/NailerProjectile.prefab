@@ -25,8 +25,7 @@ GameObject:
   - component: {fileID: 82783290833265156}
   - component: {fileID: 114448219549538174}
   - component: {fileID: 114310123647305742}
-  - component: {fileID: 114011439908530018}
-  - component: {fileID: 114700071125648128}
+  - component: {fileID: 114376905100889288}
   m_Layer: 11
   m_Name: NailerProjectile
   m_TagString: Untagged
@@ -276,33 +275,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.2
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &114011439908530018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1208171472725226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee1e113c87b563243906e554332fe078, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onDestroy:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114700071125648128}
-        m_MethodName: Spawn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114310123647305742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -315,6 +287,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delaySeconds: 1.4
+--- !u!114 &114376905100889288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1208171472725226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec515646e51270a41810a2cfcf7b85f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1841011972744292, guid: 7826de698e908d24491e0caa3dd02906, type: 2}
 --- !u!114 &114448219549538174
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -329,17 +313,3 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 764ca564ae39337409046279f42a7dcc, type: 2}
   owner: {fileID: 0}
   target: {fileID: 0}
---- !u!114 &114700071125648128
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1208171472725226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e854066f78ffad94c89d9d8cf6c71e6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entries:
-  - prefab: {fileID: 1841011972744292, guid: 7826de698e908d24491e0caa3dd02906, type: 2}
-    parentSpace: 0
