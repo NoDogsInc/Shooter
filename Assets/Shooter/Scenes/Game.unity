@@ -923,6 +923,12 @@ MonoBehaviour:
     type: 2}
   initialEditorGameState: {fileID: 1623372900783724, guid: 63e278e545ff51c4eb67d34d35f764ba,
     type: 2}
+  lagSettings:
+    enabled: 0
+    simulatedLoss: 0.1
+    duplicatesChance: 0.1
+    minimumLatencyMs: 80
+    randomLatencyMs: 20
 --- !u!1 &1647559716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1185,7 @@ Prefab:
     - target: {fileID: 224465521920783778, guid: 4474e3a368358624dab74837d3f92f43,
         type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224465521920783778, guid: 4474e3a368358624dab74837d3f92f43,
         type: 2}

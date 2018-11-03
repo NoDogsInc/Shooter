@@ -55,6 +55,6 @@ MonoBehaviour:
   dirtyFieldsMask: 0
   playerStates: []
   _globalTimeOffset: 0
-  _guiPrefab: {fileID: 1754781931694998, guid: e473cbaef77b9b1409abd10a81ec87e4, type: 2}
+  _guiPrefab: {fileID: 1754781931694998, guid: f5ecfed7c437e1640b49efddbed6337b, type: 2}
   _connectGameStatePrefab: {fileID: 1623372900783724, guid: 63e278e545ff51c4eb67d34d35f764ba,
     type: 2}

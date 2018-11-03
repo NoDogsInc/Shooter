@@ -454,6 +454,7 @@ GameObject:
   - component: {fileID: 114552740125513106}
   - component: {fileID: 114421446998495166}
   - component: {fileID: 114327904556420996}
+  - component: {fileID: 114691405327525192}
   m_Layer: 8
   m_Name: Client_Warthog
   m_TagString: Untagged
@@ -659,7 +660,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1965507688550770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 60.275726, y: -2.8516943, z: -65.984344}
+  m_LocalPosition: {x: 49.66147, y: -4.8245506, z: -92.64487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4825996761211808}
@@ -1237,7 +1238,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1805440603713226}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 11e7463d3d46bc1448e58f404a98ffcf, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1261,7 +1262,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1425944202327630}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 11e7463d3d46bc1448e58f404a98ffcf, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1273,7 +1274,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1372490686093130}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 11e7463d3d46bc1448e58f404a98ffcf, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1437,7 +1438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageProfile: {fileID: 11400000, guid: 7fb2f2403b78db341bbe17918af71ac0, type: 2}
-  _collision: {fileID: 0}
+  collision: {fileID: 0}
 --- !u!114 &114345813996763270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1668,6 +1669,33 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 4179091787522712}
+--- !u!114 &114691405327525192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965507688550770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca08bf6b1582544395827718adbd239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  replicaComponentIdx: 0
+  dirtyFieldsMask: 0
+  maxHealth: 100
+  health: 0
+  damageModifiers: []
+  death: {fileID: 0}
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Cube.Gameplay.DeathEvent, Cube.Gameplay, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onDamage:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Cube.Gameplay.DamageEvent, Cube.Gameplay, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!114 &114782544703570880
 MonoBehaviour:
   m_ObjectHideFlags: 1

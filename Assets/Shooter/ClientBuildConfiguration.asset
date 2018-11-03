@@ -20,8 +20,6 @@ MonoBehaviour:
   scenes:
   - _sceneAsset: {fileID: 102900000, guid: 2bcd11af32f1b914ea4bdb8900f8e568, type: 3}
     _sceneName: Shooter/Scenes/Game
-  - _sceneAsset: {fileID: 102900000, guid: 3bd76a2cdb0b2024381e16b857429107, type: 3}
-    _sceneName: Shooter/Scenes/GameClient
   - _sceneAsset: {fileID: 102900000, guid: ba4fc672808e73d42b6f12d1f7c0e2ca, type: 3}
     _sceneName: Shooter/Scenes/TestMap
   - _sceneAsset: {fileID: 102900000, guid: 3a8ec71dba2a6ae449ce37873a4668f7, type: 3}
