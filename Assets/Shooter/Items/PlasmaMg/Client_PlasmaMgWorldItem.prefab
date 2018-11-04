@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4924993191975292}
   - component: {fileID: 33426948274892174}
   - component: {fileID: 23734486919977212}
-  - component: {fileID: 65492286669738552}
   m_Layer: 8
   m_Name: Model
   m_TagString: Untagged
@@ -38,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4240826607427908}
   - component: {fileID: 54824418665151496}
+  - component: {fileID: 65754661629527196}
   - component: {fileID: 114163983911388502}
   - component: {fileID: 114346477184928978}
   - component: {fileID: 114431357181064616}
@@ -56,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1905363993449640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.422695, y: 0.54, z: -7.922169}
+  m_LocalPosition: {x: -38.713196, y: -3.302, z: 79.269135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4924993191975292}
@@ -134,12 +134,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65492286669738552
+--- !u!65 &65754661629527196
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1032031257871430}
+  m_GameObject: {fileID: 1905363993449640}
   m_Material: {fileID: 13400000, guid: 11e7463d3d46bc1448e58f404a98ffcf, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -160,9 +160,8 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 4111c8d2882f79f439cea2e2714129ef, type: 2}
   id:
     _data: 0
-  sceneId:
-    _data: 0
-  prefabIdx: 0
+  prefabIdx: 10
+  sceneIdx: 255
   lastUpdateTime: 0
 --- !u!114 &114346477184928978
 MonoBehaviour:
@@ -177,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   replicaComponentIdx: 0
   dirtyFieldsMask: 0
+  model: {fileID: 1032031257871430}
 --- !u!114 &114431357181064616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -189,7 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageProfile: {fileID: 0}
-  _collision: {fileID: 11400000, guid: ebf7afd3a862b8647b31e4d0a128d5ee, type: 2}
+  collisionEffectType: {fileID: 11400000, guid: ebf7afd3a862b8647b31e4d0a128d5ee,
+    type: 2}
 --- !u!114 &114497843203375704
 MonoBehaviour:
   m_ObjectHideFlags: 1

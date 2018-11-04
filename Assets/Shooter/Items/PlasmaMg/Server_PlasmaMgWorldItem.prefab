@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4060598864526242}
   - component: {fileID: 33432196191129196}
   - component: {fileID: 23351754225928860}
-  - component: {fileID: 65050470516802740}
   m_Layer: 9
   m_Name: Model
   m_TagString: Untagged
@@ -38,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4240826607427908}
   - component: {fileID: 54824418665151496}
+  - component: {fileID: 65783004265020884}
   - component: {fileID: 114163983911388502}
   - component: {fileID: 114346477184928978}
   - component: {fileID: 114745684617921298}
@@ -69,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1905363993449640}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -77.06377, y: 1.2, z: 117.020134}
+  m_LocalPosition: {x: -39.41899, y: -3.807, z: 80.69791}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4060598864526242}
@@ -133,12 +133,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65050470516802740
+--- !u!65 &65783004265020884
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1561018830100088}
+  m_GameObject: {fileID: 1905363993449640}
   m_Material: {fileID: 13400000, guid: 11e7463d3d46bc1448e58f404a98ffcf, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -175,6 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   replicaComponentIdx: 0
   dirtyFieldsMask: 0
+  model: {fileID: 0}
 --- !u!114 &114667667749340932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,4 +202,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageProfile: {fileID: 0}
-  _collision: {fileID: 11400000, guid: ebf7afd3a862b8647b31e4d0a128d5ee, type: 2}
+  collisionEffectType: {fileID: 11400000, guid: ebf7afd3a862b8647b31e4d0a128d5ee,
+    type: 2}

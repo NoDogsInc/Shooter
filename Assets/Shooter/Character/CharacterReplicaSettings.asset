@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Name: CharacterReplicaSettings
   m_EditorClassIdentifier: 
   desiredUpdateRateMs: 50
-  prorityFlags: 0
+  priorityFlags: 0
+  maxViewDistance: 120
