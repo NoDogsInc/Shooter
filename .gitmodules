@@ -7,9 +7,6 @@
 [submodule "Assets/Cube/Gameplay.SurfaceLibrary"]
 	path = Assets/Cube/Gameplay.SurfaceLibrary
 	url = https://github.com/NoDogsInc/Cube.Gameplay.SurfaceLibrary
-[submodule "Assets/Cube/Gameplay.KinematiCharacterController"]
-	path = Assets/Cube/Gameplay.KinematiCharacterController
-	url = https://github.com/NoDogsInc/Cube.Gameplay.KinematicCharacterController
 [submodule "Assets/Cube/Networking"]
 	path = Assets/Cube/Networking
 	url = https://github.com/NoDogsInc/Cube.Networking
