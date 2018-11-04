@@ -25,3 +25,6 @@
 [submodule "Assets/Cube/Vfx"]
 	path = Assets/Cube/Vfx
 	url = https://github.com/NoDogsInc/Cube.Vfx
+[submodule "Assets/Cube/Gameplay.KinematiCharacterController"]
+	path = Assets/Cube/Gameplay.KinematiCharacterController
+	url = https://github.com/NoDogsInc/Cube.Gameplay.KinematicCharacterController
