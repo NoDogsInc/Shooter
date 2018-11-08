@@ -1529,7 +1529,6 @@ MonoBehaviour:
     _data: 0
   prefabIdx: 0
   sceneIdx: 255
-  lastUpdateTime: 0
 --- !u!114 &114004869020190750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1546,7 +1545,6 @@ MonoBehaviour:
   dirtyFieldsMask: 0
   _controller: {fileID: 0}
   _playerController: {fileID: 0}
-  _remotePlayerController: {fileID: 0}
   onPossession:
     m_PersistentCalls:
       m_Calls:

@@ -14,10 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Shooter/Scenes/BloodGulch.unity
     guid: 3a8ec71dba2a6ae449ce37873a4668f7
-  - enabled: 1
-    path: Assets/Shooter/Scenes/GameServer.unity
-    guid: 8b77c0362295c9248905dfa1148fc9b9
-  - enabled: 1
-    path: Assets/Shooter/Scenes/GameClient.unity
-    guid: 3bd76a2cdb0b2024381e16b857429107
   m_configObjects: {}

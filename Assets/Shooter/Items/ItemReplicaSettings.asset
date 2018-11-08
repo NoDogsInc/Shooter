@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desiredUpdateRateMs: 800
   priorityFlags: 0
-  maxViewDistance: 50
+  maxViewDistance: 80
